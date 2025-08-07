@@ -76,9 +76,9 @@ Sou reconhecido pela minha **adaptação rápida**, empatia, eficiência e atua�
 ## 📫 Contato
 
 <!-- Seção de contato para networking e oportunidades -->
-- **Email:** ruigoliveira1@gmail.com
-- **Whatsapp:** [Meu contato](https://wa.me/5555991567408)
-- **LinkedIn:** [In/rui-gabriel-oliveira](https://www.linkedin.com/in/rui-gabriel-oliveira/)
+- **Email:** <a href="mailto:ruigoliveira1@gmail.com" target="_blank">ruigoliveira1@gmail.com</a>
+- **Whatsapp:** <a href="https://wa.me/5555991567408" target="_blank">Meu contato</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/rui-gabriel-oliveira/" target="_blank">In/rui-gabriel-oliveira</a>
 - **Localização:** Brasil - Tubarão, SC
 
 ---
