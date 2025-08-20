@@ -72,7 +72,7 @@ Desenvolvedor de aplicações enterprise com foco em arquitetura cloud e suporte
 ---
 
 
-## 🧙‍♂️ Rui gabriel, mago da tecnologia
+## 🧙‍♂️ Rui Gabriel, mago da tecnologia
 
 ### Soft Skills do Mago
 <div align="center">
