@@ -90,6 +90,5 @@ Disponível para oportunidades remotas ou híbridas
 ### 🐍 Contribuições & Atividades
 
 ![snake gif](https://github.com/ruigabriel1/github-snake/blob/main/dist/github-snake-dark.svg)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruigabriel1\&theme=radical\&hide_border=false\&include_all_commits=true\&count_private=true)
 
 ---
