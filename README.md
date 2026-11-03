@@ -1,85 +1,58 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Rui%20Gabriel&fontSize=80&animation=fadeIn&fontAlignY=35&desc=AI%20Specialist%20%7C%20Spec-Driven%20Development%20(SDD)&descAlignY=55&descAlign=50" alt="Rui Gabriel Banner"/>
-</div>
+# Rui Gabriel Oliveira
 
-# 👋 Olá, eu sou o Rui Gabriel!
+**Engenharia de Dados (Jr) · SQL · Python · Pipelines · Power BI**
 
-Sou um **Especialista em Inteligência Artificial** e **Arquiteto SDD (Spec-Driven Development)** focado em construir sistemas autônomos, integrações inteligentes e automações eficientes. Meu trabalho é definir a "arquitetura de intenção" e governar a execução de código através de plataformas de IA (como a ferramenta **Antigravity**), garantindo entregas escaláveis e perfeitamente alinhadas às regras de negócio. Para manter o fluxo conversacional fluido e criar gatilhos em sessões contínuas, adoto a persona **"Jarvis"** ao me comunicar com o agente.
+Trabalho com dados de produção todos os dias. Como Técnico de Infraestrutura na **Softplan**, acompanho KPIs operacionais no Zabbix, investigo locks e anomalias em bancos de dados com SQL (DBeaver) e cruzo dados de Kubernetes, Elastic, VMs e logs para montar evidências de incidentes em sistemas que não podem parar. Agora estou levando essa base para Engenharia de Dados: pipelines, modelagem e análise.
 
----
+Antes, dois anos na **Norsk Hydro**, em ambiente industrial multinacional, com monitoramento em Zabbix e Grafana, consultas SQL para diagnóstico e documentação para equipes globais.
 
-## 🚀 Filosofia de Trabalho: SDD (Spec-Driven Development)
-
-Meu fluxo de trabalho não é sobre digitar milhares de linhas de código, mas sim sobre **Engenharia de Prompt Orientada a Agentes** e **Protocolos Estritos** (como o meu método *V.L.A.E.G.S.* - Visão, Link, Arquitetura, Estilo, Gatilho, Segurança). 
-
-**Nível de Proficiência Antigravity (IA):** Pleno. Elevada capacidade técnica em estruturação de prompts, contenção de escopo via restrições rígidas e implementação de máquinas de estado persistentes em arquivos `.md`, garantindo reprodutibilidade em sistemas probabilísticos.
-
-- 🧠 **Data-First:** Crio a Constituição de Dados (JSON Schemas) e POPs (Procedimentos Operacionais Padrão) antes da IA encostar no código.
-- ⚙️ **Máquinas de Estado:** Contorno o limite de contexto das IAs criando rastreadores em `.md`, garantindo zero alucinações e continuidade perfeita em projetos de longa duração.
-- 🗜️ **Otimização de Tokens:** Maximização do uso da Janela de Contexto (*Context Window*). Transfiro a "memória do projeto" para logs modulares textuais (`progress.md`, `CLAUDE.md`), eliminando a necessidade de repassar o histórico completo da conversa, reduzindo custos e latência computacional.
-- 🐍 **Automações Determinísticas:** Uso Python como motor primário para rotear lógica que as IAs processam.
-- 🛠️ **Criação de Skills para IA:** Capacidade de estender as habilidades nativas do agente (Antigravity/Copilot) desenvolvendo "Skills" ou ferramentas customizadas, permitindo que a IA execute tarefas corporativas complexas, acesse APIs fechadas ou orquestre ambientes locais de forma padronizada.
+Formando em Sistemas de Informação pela Unisul (dez/2026).
 
 ---
 
-## 🛠️ Stack Tecnológico e Ferramentas
+## Projetos
 
-### 🤖 Engenharia de IA e Automação
-- **Plataformas & Modelos:** Antigravity (usando a persona "Jarvis" para fluidez de workflow), GitHub Copilot, Gemini.
-- **Linguagem Principal:** Python (Foco absoluto em automação, pipelines e roteamento lógico).
-- **Abordagem:** Spec-Driven Development, Agentic AI, Prompt Engineering.
+### Clima × Dengue — pipeline de dados e previsão de casos na Região Sul
+[`ruigabriel1/Projeto_Clima_X_Dengue`](https://github.com/ruigabriel1/Projeto_Clima_X_Dengue)
 
-### 💻 Desenvolvimento de Software e Cloud
-- **Backend & Microsserviços:** .NET 9.0, C#, API RESTful.
-- **Frontend & Integrações:** Vanilla JS, HTML/CSS (com foco em design responsivo e Dark Mode).
-- **Nuvem e Dados:** Microsoft Azure (VMs, Speech Studio, DBs), Google Sheets (como database via Google Apps Script).
-- **Banco de Dados:** Entity Framework, Bancos de Dados Relacionais.
+Pipeline em arquitetura Medallion (Bronze → Silver → Gold) que cruza dados climáticos (INMET), epidemiológicos (SINAN) e anomalias oceânicas (NOAA/ONI) para prever casos de dengue nos 1.190 municípios da Região Sul.
 
----
+| | |
+|---|---|
+| Modelo | XGBoost Regressor |
+| R² (cross-validation espacial) | 0,744 |
+| MAE | 10,8 casos por cidade/mês |
+| Cobertura | 1.190 municípios × 10 anos (142.800 registros) |
 
-## 🏆 Projetos em Destaque
+Melhor trabalho da Região Sul no IV Symposium One Health / Saúde Única (Campo Grande/MS, 2026). Pesquisa de mestrado de Fernando R. D. J. de Oliveira; meu papel foi a engenharia de dados, o pipeline e o modelo.
 
-> *"A IA atua como motor de renderização, eu atuo como a mente arquitetônica."*
+`Python` · `pandas` · `XGBoost` · `SQL` · `Power BI`
 
-### 🔬 [Clima × Dengue — Modelagem Climático-Epidemiológica](https://github.com/ruigabriel1/Projeto_Clima_X_Dengue)
-**Descrição:** Pesquisa aplicada de grande porte desenvolvida em nível de pós-graduação. O projeto investiga a correlação real entre dados climáticos e epidemiológicos na Região Sul do Brasil (2015-2040). Utiliza um pipeline avançado de modelagem estatística (log-linear) e Machine Learning (HistGradientBoosting) em Python para projetar riscos futuros de dengue sob cenários do IPCC (SSP).
-**Destaque:** A ideia central e estrutura resumida do projeto conquistaram o **1º lugar em Campo Grande (MS)** dentre os resumos científicos participantes da banca/evento.
-**Foco:** Data Science corporativa, análise geoespacial e apoio à decisão em saúde pública.
+### Projeto 2 — pipeline ELT orquestrado *(em construção)*
 
-### 🎲 [Arquiteto-de-Mundos](https://github.com/ruigabriel1/Arquiteto-de-Mundos)
-**Descrição:** Um projeto inovador de RPG que utiliza a Inteligência Artificial atuando como Game Master (GM) para reger mundos dinâmicos.
-**Foco:** Engenharia de Prompt Narrativa e Integração de IA.
+Ingestão de uma API pública com histórico diário para PostgreSQL em Docker, transformação com dbt (staging → intermediário → marts) com modelo dimensional e testes de qualidade, orquestração com Airflow e painel final. Link aqui assim que estiver rodando com um `docker compose up`.
 
-### 🏛️ [Open House RSVP Portal](https://github.com/ruigabriel1/open-house)
-**Descrição:** Portal premium de confirmação de presença (Mobile-First, Dark Theme). Desenvolvido através do protocolo *V.L.A.E.G.S.*, conectando o frontend puro ao Google Sheets via Apps Script, garantindo um ambiente serverless.
-**Foco:** Desenvolvimento 100% via Spec-Driven Development (SDD) governando IA.
+### Projeto ECommerceSystem
+[`ruigabriel1/Projeto-ECommerceSystem`](https://github.com/ruigabriel1/Projeto-ECommerceSystem)
 
-### 🛒 [Projeto-ECommerceSystem](https://github.com/ruigabriel1/Projeto-ECommerceSystem)
-**Descrição:** Plataforma de e-commerce distribuída construída com .NET 9.0, utilizando uma arquitetura moderna e escalável de microsserviços.
-**Foco:** Arquitetura de Software e C#.
+Plataforma de e-commerce distribuída em .NET 9 com microsserviços, API Gateway (Ocelot), autenticação JWT, mensageria com RabbitMQ e persistência em SQL Server.
 
-### 🐍 [Treinamento Python & Automações IA](https://github.com/ruigabriel1/treinamento_python_ia)
-**Descrição:** Laboratório contínuo de testes, scripts e pipelines em Python voltados para o uso avançado de IA.
-**Foco:** Scripts Python atômicos e testáveis.
+`C#` · `.NET 9` · `RabbitMQ` · `SQL Server`
 
 ---
 
-## 📈 Estatísticas do GitHub
+## Stack
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ruigabriel1&show_icons=true&theme=radium&hide_border=true&bg_color=000000" alt="GitHub Stats" width="45%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruigabriel1&theme=radium&hide_border=true&background=000000" alt="GitHub Streak" width="45%" />
-</p>
+**Dados** &nbsp;SQL · Python (pandas) · Power BI · ETL/ELT · Modelagem de dados · Qualidade de dados
 
-### 🐍 Contribuições & Atividades
+**Ferramentas** &nbsp;Git · Docker · Linux · DBeaver · Jupyter
 
-<p align="center">
-  <img src="https://github.com/ruigabriel1/github-snake/blob/main/dist/github-snake-dark.svg" alt="snake gif" />
-</p>
+**Infraestrutura e observabilidade** &nbsp;Kubernetes · Elasticsearch · Zabbix · Grafana · Microsoft Azure
+
+**Estudando** &nbsp;Apache Airflow · dbt · modelagem dimensional (Kimball)
+
+Uso IA generativa como ferramenta de produtividade, principalmente na análise de grandes volumes de log e no apoio ao desenvolvimento, sempre revisando e entendendo o código que entrego.
 
 ---
 
-<p align="center">
-  <strong>Vamos construir o futuro com Engenharia de Intenção!</strong><br>
-  Sempre aberto para conversar sobre Agentic AI, Automações em Python ou projetos escaláveis na Nuvem.
-</p>
+📫 &nbsp;ruigabrieloliveira1@gmail.com &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/rui-gabriel-oliveira/)
